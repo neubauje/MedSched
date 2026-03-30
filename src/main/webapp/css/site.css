@@ -1,0 +1,170 @@
+body {
+    padding-top: 70px;
+    background-color: lightblue;
+    margin-left: 150px;
+
+}
+
+.table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th, td {
+    background-color: #96D4D4;
+}
+
+#navbar-right {
+    float: right;
+    right: 0;
+}
+
+.footer {
+    position: page;
+    bottom: 0;
+    left: 10rem;
+    right: 0;
+    height: 30px;
+}
+
+.HomePage {
+    background-color: lightblue;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: darkcyan;
+    font-size: xxx-large;
+    -webkit-text-stroke: 1px black;
+    background-color: white;
+    height: 60px;
+    width: 90%;
+}
+
+img {
+
+    height: 300px;
+}
+
+.tile {
+    background-color: white;
+    width: 40%;
+    padding: 15px;
+}
+
+.toolbar {
+    font-family: sans-serif;
+    font-size: large;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: fit-content; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 10; /* Stay on top */
+    top: 30px; /* Stay at the top */
+    left: 0;
+    background-color: lightcyan; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 50px;
+    padding-right: 10px;
+    border: 10px solid black;
+}
+
+.toolbar > .link {
+    border: 10px solid lightgray;
+}
+
+.container {
+    justify-content: center;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+
+.aboutPageContent {
+    text-align: justify-all;
+}
+
+.designBy {
+    text-align: center;
+    margin-right: -400px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.designBy > span {
+    color: blue;
+}
+
+
+#logo > h1 {
+    align-content: center;
+    padding-top: 6px;
+}
+
+#logo img {
+    height: 60px;
+    float: right;
+    margin-right: 170px;
+
+}
+
+.row > span {
+    color: blue;
+    text-decoration-line: underline;
+}
+
+form input {
+    width: 150px;
+}
+
+.form-group {
+    width: 30%;
+}
+
+form-group > div.showOneOfficeAddress {
+    width: 300px;
+}
+
+button {
+    background-color: navajowhite;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 5px;
+    display: inline-block;
+}
+
+.formSubmitButton {
+    width: 10%;
+
+}
+
+.showOneOffice > label {
+    width: 10%;
+}
+
+.createSlotlabel {
+    width: 10%;
+}
+
+.forResponse {
+    width: 15%;
+}
+
+.createdatelabel > label {
+    width: 10%;
+
+}
+
+.rating span {
+    color: lightgray;
+}
+
+.filled:before {
+    content: "\2605";
+    color: mediumpurple;
+    position: absolute;
+}
+
+.alert {
+    color: red;
+    font-weight: bold;
+}
